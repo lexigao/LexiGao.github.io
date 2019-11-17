@@ -1,0 +1,52 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 2em;
+  background-color: #9BC1BC;
+}
+
+h1 {
+  font-style: bold;
+  color: #111;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #E6EBE0;
+  overflow: hidden;
+  font-style: bold;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #111E1F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-style: bold;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F19287;
+  color: black;
+  font-style: bold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #F19287;
+  color: white;
+  font-style: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
